@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-   <h2>Welcome To Dad Jokes On the Web</h2>
+  <div>
+    <h2>Welcome To Dad Jokes On the Web</h2>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" >
     <app-header />
     <nuxt />
   </div>
@@ -40,5 +40,6 @@ import AppHeader from "../components/AppHeader";
        overflow: hidden;
        padding: 1rem 2rem;
        background: white;
+       border-bottom: 1px solid #ccc;
      }
 </style>

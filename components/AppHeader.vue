@@ -6,10 +6,10 @@
            <nuxt-link to="/">Home</nuxt-link>
        </li>
        <li>
-           <nuxt-link to="/">About</nuxt-link>
+           <nuxt-link to="/about">About</nuxt-link>
        </li>
        <li>
-           <nuxt-link to="/">Jokes</nuxt-link>
+           <nuxt-link to="/jokes">Jokes</nuxt-link>
        </li>
    </ul>
   </header>
@@ -29,6 +29,7 @@ export default {
         align-items: center;
         margin-bottom: 1rem;
         padding-bottom: 1px dotted #ccc;
+        
     }
     .header .title {
         font-size: 3rem;
