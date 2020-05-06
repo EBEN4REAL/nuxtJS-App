@@ -17,8 +17,7 @@ export default {
         }
     },
     methods: {
-       onS        <form @submit.prevent="OnSubmit">
-ubmit() {
+       OnSubmit() {
            this.$emit("search-text", this.text);
            this.text = "";
        }
