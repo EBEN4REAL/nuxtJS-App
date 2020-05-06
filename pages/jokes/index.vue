@@ -1,6 +1,7 @@
 <template>
     <div>
-       <Joke v-for="joke in jokes" :key="joke.id" :id="joke.id" :joke="joke.joke" />
+        <SearchJokes @search-text="searchText"  />
+        <Joke v-for="joke in jokes" :key="joke.id" :id="joke.id" :joke="joke.joke" />
     </div>
     
 </template>
@@ -8,9 +9,12 @@
 <script>
     import axios from 'axios';
     import Joke from '../../components/joke';
+    import SearchJokes from "../../components/SearchJokes";
+
     export default {
         components: {
-            Joke
+            Joke,
+            SearchJokes
         },
         data() {
             return {
